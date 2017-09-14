@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testcases.TC005_DuplicateLead">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setValues"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.TC005_DuplicateLead -->
+      <class name="testcases.TC006_DeleteLead">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setValues"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.TC006_DeleteLead -->
+      <class name="testcases.TC003_CreateLead">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setValues"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.TC003_CreateLead -->
+      <class name="testcases.TC004_EditLead">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setValues"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcases.TC004_EditLead -->
+      <class name="testcases.TC007_MergeLead">
+        <methods>
+          <include name="MergeLead" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setValues"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.TC007_MergeLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
